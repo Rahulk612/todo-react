@@ -1,0 +1,197 @@
+body{
+    background-color: #e0fbfc;
+}
+
+
+.dataTodo{
+    height: 500px;
+    width: 60%;
+}
+
+.FormDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FormDiv input {
+    height: 25px;
+}
+
+.FormDiv button {
+    height: 50px;
+}
+
+
+.RahulListTodo{
+    background-color: aqua;
+}
+
+.todoListDiv{
+    min-height: 100%;
+    /* overflow:visible; */
+    margin-bottom: 100px;
+}
+
+
+.taskComInc{
+    border-bottom: 2px solid royalblue;
+    height: 50px;
+    /* padding: 10px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.taskComInc div{
+    cursor: pointer;
+    /* padding: 10px 0px; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid royalblue;
+}
+
+.taskComInc .normalClass:hover h4{
+    color: #FF6700;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.incompleted h4{
+    color: #FF6700;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.tasks h4{
+    color: #FF6700;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
+.completed h4{
+    color: #FF6700;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.taskComInc div:hover{
+    background-color: #E1EBEE;
+}
+
+
+.taskComInc div:first-child{
+    border: none;
+}
+
+.InfoDiv{
+    height: 100%;
+}
+
+
+.listDiv{
+    width: 50%;
+    height: 500px;
+    position:absolute;
+    top: 5%;
+    margin-left: 40%;
+}
+
+.MUIDiv{
+    border-radius: 5px;
+    width: 35%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pageBackground{
+    width: 100%;
+    display: flex;
+    /* gap: 30%; */
+    justify-content: space-around ;
+
+}
+
+
+.EachItem{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    /* gap: 20%; */
+}
+.DeleteIcon{
+    padding: 0px 15px;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50%;
+}
+ 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+  background-color: silver;
+  /* outline: 1px solid slategrey; */
+}
+
+
+.DeleteIcon:hover{
+    color: #FF6700;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.titleDesc p:first-child{
+    margin-top: 0px;
+    padding: 2px 5px;
+    font-weight: 500;
+}
+
+.titleDesc p:last-child{
+    padding: 2px 5px;
+    margin-top: -10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.titleDesc{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.descDiv{
+    width: 410px;
+    overflow-wrap: break-word;
+}
+
+.TimeAndDate{
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    gap: 5px;
+    font-size: 13px;
+}
+
+
+.ScrollDiv{
+    height: 445px;
+    overflow-y: scroll;
+}
